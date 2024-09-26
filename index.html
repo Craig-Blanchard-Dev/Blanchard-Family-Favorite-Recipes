@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blanchard Family Favorite Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Blanchard Family Favorites</h1>
+        <div class="dropdown">
+            <label for="recipe-select">Select a recipe:</label>
+            <select id="recipe-select" onchange="loadRecipe()">
+                <option value="">-- Choose a recipe --</option>
+                <option value="pancakes">Pancakes</option>
+                <option value="spaghetti">Spaghetti Bolognese</option>
+                <option value="sesamechicken">Sesame Chicken</option>
+                <option value="strawberrymascarponelayercake">Strawberry Mascarpone Layer Cake</option>
+            </select>
+        </div>
+
+        <div id="recipe-container">
+            <!-- Recipe details will appear here -->
+        </div>
+
+        <div class="controls">
+            <label for="multiplier">Multiply ingredients by: </label>
+            <select id="multiplier" onchange="multiplyIngredients()">
+                <option value="1">1x</option>
+                <option value="2">2x</option>
+                <option value="3">3x</option>
+            </select>
+            <button onclick="toggleCookMode()">Cook Mode</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
