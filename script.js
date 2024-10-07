@@ -200,7 +200,7 @@ const recipes = {
             { name: "Salt", amount: 1, unit: "teaspoon" },  
             { name: "White sugar", amount: 1, unit: "tablespoon" },  
             { name: "Egg", amount: 1, unit: "whole" },  
-            { name: "Milk", amount: 300, unit: "grams" },  
+            { name: "Milk", amount: 1.25, unit: "cups" },  
             { name: "Unsalted butter, melted", amount: 42, unit: "grams" },  
             { name: "Vanilla extract", amount: 1, unit: "teaspoon" }  
         ],
