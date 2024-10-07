@@ -8,7 +8,12 @@ body {
     justify-content: center;
     align-items: flex-start; 
     min-height: 100vh; 
-    flex-direction: column; 
+    flex-direction: column;
+    background-image: url('kitchenbackground.webp'); /* path to your image */
+    background-size: cover; /* this makes the image cover the whole page */
+    background-repeat: no-repeat; /* prevent the image from repeating */
+    background-attachment: fixed; /* this makes the background stay in place when scrolling */
+    background-position: center; /* centers the image */
 }
 
 .container {
