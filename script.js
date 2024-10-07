@@ -72,6 +72,52 @@ const recipes = {
             "Keep the tortillas warm by covering them with a cloth."
         ]
     },
+    butterTortillasRecipe: {
+        ingredients: [
+            { name: "All-purpose flour", amount: 480, unit: "g" }, 
+            { name: "Baking powder", amount: 7, unit: "g" },  
+            { name: "Salt", amount: 10, unit: "g" },  
+            { name: "Shortening or lard", amount: 60, unit: "g" },  
+            { name: "Hot water", amount: 360, unit: "ml" }  
+        ],
+        steps: [
+            "In a large bowl, combine the flour, baking powder, and salt.",
+            "Add the shortening or lard and mix it in with your fingers until the mixture looks crumbly.",
+            "Slowly pour in the hot water, mixing until the dough forms.",
+            "Knead the dough on a lightly floured surface for about 5 minutes until smooth and elastic.",
+            "Cover the dough with a damp cloth and let it rest for 30 minutes.",
+            "Divide the dough into equal pieces and roll them into balls.",
+            "On a floured surface, roll each dough ball into a thin circle, about 1/8 inch thick.",
+            "Heat a skillet or griddle over medium-high heat. Cook each tortilla for about 30 seconds on each side, or until bubbles form and golden brown spots appear.",
+            "Keep the cooked tortillas wrapped in a towel to stay warm until serving."
+        ]
+    },
+    oatMealCreamPie: {
+        ingredients: [
+            { name: "Unsalted butter", amount: 226, unit: "g" },  
+            { name: "Brown sugar", amount: 210, unit: "g" },  
+            { name: "Granulated sugar", amount: 100, unit: "g" },  
+            { name: "Eggs", amount: 2, unit: "" },  
+            { name: "Vanilla extract", amount: 5, unit: "ml" },  
+            { name: "All-purpose flour", amount: 180, unit: "g" },  
+            { name: "Cinnamon", amount: 2, unit: "g" },  
+            { name: "Baking soda", amount: 6, unit: "g" },  
+            { name: "Salt", amount: 3, unit: "g" },  
+            { name: "Old-fashioned rolled oats", amount: 240, unit: "g" }, 
+            { name: "Marshmallow fluff", amount: 240, unit: "g" }  
+        ],
+        steps: [
+            "Preheat the oven to 350°F (175°C). Line baking sheets with parchment paper.",
+            "In a large bowl, cream together the butter, brown sugar, and granulated sugar until light and fluffy.",
+            "Beat in the eggs, one at a time, then add the vanilla extract.",
+            "In a separate bowl, whisk together the flour, cinnamon, baking soda, and salt.",
+            "Gradually mix the dry ingredients into the wet ingredients until well combined.",
+            "Stir in the rolled oats by hand.",
+            "Scoop the dough onto the prepared baking sheets using a cookie scoop or spoon, leaving space between each cookie.",
+            "Bake for 10-12 minutes or until the edges are lightly golden. Cool the cookies on the baking sheets for a few minutes, then transfer to a wire rack to cool completely.",
+            "Once cooled, spread marshmallow fluff onto the bottom side of half the cookies, then top with another cookie to create a sandwich."
+        ]
+    },
     garlicButterShrimpScampi: {
         ingredients: [
             { name: "Shrimp", amount: 1, unit: "lb" },  
